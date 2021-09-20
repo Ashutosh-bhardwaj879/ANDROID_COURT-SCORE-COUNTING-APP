@@ -58,4 +58,11 @@ public class MainActivity extends AppCompatActivity {
         globalScoreB+=1;
         displayForTeamB(globalScoreB);
     }
+
+    public void resetButton(View v){
+        globalScoreB = 0;
+        globalScoreA = 0;
+        displayForTeamB(globalScoreB);
+        displayForTeamA(globalScoreA);
+    }
 }
